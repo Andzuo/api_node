@@ -1,3 +1,4 @@
+import { Subject } from './../entities/Subjec';
 import { AppDataSource } from "../data-source"
 
-export const SubjectRepository = AppDataSource.getRepository('Subject')
+export const SubjectRepository = AppDataSource.getRepository(Subject)
